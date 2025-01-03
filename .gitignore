@@ -1,0 +1,29 @@
+# IDE directories
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+
+# Python specific
+__pycache__/
+*.egg-info/
+*.pyc
+
+# Virtualenvs
+venv/
+env/
+.env/
+
+# Project specific
+.env
+.envrc
+.cache
+.ruff_cache
+
+# Database
+*.sqlite3
+
+# Supervisor
+supervisord.log
+supervisord.pid

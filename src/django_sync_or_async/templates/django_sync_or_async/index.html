@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Django sync or async, that's the question</title>
+        <style type="text/css">
+            html, body {
+                height: 100%;
+                padding:0;
+                margin: 0;
+            }
+            body {
+                font-family: Verdana, sans-serif;
+            }
+            .container {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .container .box {
+                width: 400px;
+                padding: 10px;
+                border: 2px dotted rgb(96 139 168);
+                border-radius: 5px;
+                background-color: rgb(96 139 168 / 0.2);
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <div>And the random country selected for today is...</div>
+                <h1>{{ country.name }}</h1>
+                <code>duration: {{ time }}</code>
+            </div>
+        </div>
+    </body>
+</html>
